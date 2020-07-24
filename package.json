@@ -1,11 +1,17 @@
 {
   "name": "@npm/disposable-email-domains",
   "version": "1.0.25",
-  "repository": "https://github.com/ivolo/disposable-email-domains.git",
   "license": "MIT",
   "main": "./index.json",
   "scripts": {
     "test": "node ./node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm/disposable-email-domains.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/npm"
   },
   "devDependencies": {
     "chai": "^3.5.0",
