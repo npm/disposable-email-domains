@@ -10,9 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/npm/disposable-email-domains.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/npm"
-  },
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-sorted": "^0.1.0",
